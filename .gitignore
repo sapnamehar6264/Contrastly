@@ -1,0 +1,13 @@
+dist/
+node_modules/
+npm-debug.log*
+.nyc_output/
+.cache/
+.DS_Store
+# moon
+.moon/cache
+.moon/docker
+.parcel-cache
+
+# husky
+.husky/_

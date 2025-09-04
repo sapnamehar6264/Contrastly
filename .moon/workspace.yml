@@ -1,0 +1,8 @@
+# https://moonrepo.dev/docs/config/workspace
+$schema: 'https://moonrepo.dev/schemas/workspace.json'
+projects:
+  ui: 'docs/ui'
+  contrast-colors: 'packages/contrast-colors'
+vcs:
+  manager: 'git'
+  defaultBranch: 'main'
