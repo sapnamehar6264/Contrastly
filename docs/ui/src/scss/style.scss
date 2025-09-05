@@ -82,9 +82,8 @@ governing permissions and limitations under the License.
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  // font-family: 'Adobe Clean'; // local update since no typekit support currently.
+  background: #f4f6fc;
+  font-family: 'Poppins', sans-serif;
 }
 
 body,
@@ -2291,3 +2290,4 @@ pre {
 .table-cell-item {
   display: block;
 }
+
