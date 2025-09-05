@@ -73,10 +73,10 @@
     "posthtml-parser": "^0.10.1",
     "simple-color-converter": "^2.1.13"
   },
-"scripts": {
-  "dev": "parcel index.html",
-  "build": "parcel build index.html"
-},
+  "scripts": {
+    "dev": "parcel serve src/index.html --port 1234",
+    "build": "parcel build src/index.html --dist-dir dist"
+  },
   "keywords": [
     "accessibility",
     "inclusive",
